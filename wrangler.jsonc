@@ -9,6 +9,6 @@
   },
   "vars": {
     "SAIPOS_STORE_ID": "47653",
-    "SAIPOS_AUTH_SCHEME": "Bearer"
+    "SAIPOS_AUTH_SCHEME": "raw"
   }
 }
