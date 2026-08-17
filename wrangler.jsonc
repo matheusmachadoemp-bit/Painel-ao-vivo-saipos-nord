@@ -1,9 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "nord-operacao-saipos",
-  "main": "./worker/index.ts",
+  "main": "vinext/server/app-router-entry",
   "compatibility_date": "2026-08-17",
   "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "not_found_handling": "none"
+  },
   "vars": {
     "SAIPOS_STORE_ID": "47653",
     "SAIPOS_AUTH_SCHEME": "Bearer"
