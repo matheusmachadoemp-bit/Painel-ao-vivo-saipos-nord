@@ -1,0 +1,12 @@
+node_modules
+.next
+.vinext
+.wrangler
+dist
+build
+outputs
+work
+.env
+.env.local
+*.tsbuildinfo
+.DS_Store
