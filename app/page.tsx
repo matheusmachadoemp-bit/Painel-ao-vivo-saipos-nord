@@ -1,5 +1,6 @@
 "use client";
 
+import "./globals.css";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 type Order = { id:string; number:string; createdAt:string; updatedAt:string; kdsEnteredAt:string; kdsFinishedAt:string|null; status:string; statusKind:"production"|"ready"|"completed"|"cancelled"|"unknown"; finishedAt:string|null; channel:string; platform:string; customerName:string; district:string; cancelled:boolean; };
